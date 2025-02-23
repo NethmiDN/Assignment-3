@@ -4,120 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 2</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Top Navigation */
-        .top-nav {
-            background-color: white;
-            padding: 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid gray;
-        }
-
-        .logo {
-            width: 1%;
-            height: 1%;
-            margin-left: 1%;
-            margin-top: 1%;
-        }
-
-        .img {
-            width: 100px;
-            height: 30px;
-            margin-left: 10px;
-            margin-top: 1px;
-        }
-
-        .top-nav ul {
-            list-style: none;
-            display: flex;
-            margin-right: 15px;
-        }
-
-        .top-nav ul li {
-            margin: 0 15px;
-        }
-
-        .top-nav ul li a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-
-        /* Layout */
-        .container {
-            display: flex;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            width: 200px;
-            background-color: purple;
-            color: white;
-            padding: 20px;
-            min-height: 100vh;
-        }
-
-        .sidebar ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .sidebar ul li {
-            margin: 20px 0;
-        }
-
-        .sidebar ul li a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            display: block;
-        }
-
-        /* Content Area */
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-
-        .image-container {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-
-        .image-container img {
-            width: 30%;
-            border: 2px solid black;
-        }
-
-        .content p {
-            text-align: justify;
-            margin-bottom: 15px;
-        }
-
-        /* Footer */
-        .footer {
-            background-color: gray;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 9px;
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/exercise2.css">
 </head>
 <body>
 
-    <!-- Top Navigation -->
     <div class="top-nav">
         <div class="logo"><img src="/assets/images/ijse.png" alt="icon" class="img"></div>
         <ul>
@@ -128,10 +18,8 @@
         </ul>
     </div>
 
-    <!-- Main Layout -->
     <div class="container">
         
-        <!-- Sidebar -->
         <div class="sidebar">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -141,7 +29,6 @@
             </ul>
         </div>
 
-        <!-- Content -->
         <div class="content">
             <div class="image-container">
                 <img src="/assets/images/Nice Loading Animation For Websites » CSS Author.gif" alt="Image 1">
@@ -183,7 +70,6 @@
 
     </div>
 
-    <!-- Footer -->
     <div class="footer">
         Developed By IJSE
     </div>

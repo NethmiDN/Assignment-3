@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+}
+
+.page1 {
+    width: 100%;
+    height: 800px;
+}
+
+.top-nav1 {
+    background-color: red;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.card1 {
+    font-size: medium;
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.hello {
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page2 {
+    width: 100%;
+    height: 800px;
+    background-color: cyan;
+}
+
+.top-nav2 {
+    background-color: darkblue;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+
+}
+
+.card2 {
+    font-size: medium;
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.how {
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.page3 {
+    width: 100%;
+    height: 800px;
+    background-color: #515c54;
+}
+
+.top-nav3 {
+    background-color: #222623;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+
+}
+
+.card3 {
+    font-size: medium;
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.are {
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.page4 {
+    width: 100%;
+    height: 800px;
+    background-color: #fc2828;
+}
+
+.top-nav4 {
+    background-color: #730101;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+
+}
+
+.card4 {
+    font-size: medium;
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.you {
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

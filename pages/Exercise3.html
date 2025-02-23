@@ -1,84 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/exercise3.css" />
     <title>Exercise 3</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        /* Outer circle */
-        .gray-circle {  
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 15px solid #948f60;
-            position: fixed;
-        }
-
-        /* Middle circle */
-        .red-circle {
-            width: 171px;
-            height: 171px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 15px solid red;
-            position: fixed;
-        }
-
-        /* Inner circle */
-        .purple-circle {
-            width: 171px;
-            height: 171px;
-            background-color: purple;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            position: absolute;
-        }
-
-        .blue-circle {
-            width: 171px;
-            height: 171px;
-            background-color: #0d7f9e;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            position: absolute;
-            top: 1000px;
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="gray-circle">
-            <div class="red-circle">
-                <div class="purple-circle">
-                    Hello
-                </div>
-                <div class="blue-circle">
-                    Welcome To
-                </div>
-            </div>
-        </div>
+
+    <div class="ring" id="outer-ring">
+      <div class="ring" id="inner-ring"></div>
     </div>
-</body>
+
+    <div class="circle-container">
+      <div class="card-container">
+        <div class="circle-card" id="card-1"><p>Hello</p></div>
+      </div>
+
+      <div class="card-container">
+        <div class="circle-card" id="card-2"><p>Welcome To</p></div>
+      </div>
+
+      <div class="card-container">
+        <div class="circle-card" id="card-3">
+          <p>Institute of Software Engineering</p>
+        </div>
+      </div>
+      
+    </div>
+
+  </body>
 </html>
